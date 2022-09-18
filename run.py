@@ -26,8 +26,19 @@ board = [
 
 ]
 
+""" create a print board function """
+
 def print_board(board):
     for row in board:
         for slot in row:
-            print(slot, end = "")
-        print()    
+            print(f"{slot} ", end = "")
+        print() 
+
+print_board(board)
+
+def quit(user_input)
+    if user_input == "q": return False 
+    else: return True   
+
+while True:
+    user_input = input("Enter a position 1 through 9 or enter \"q\"")
