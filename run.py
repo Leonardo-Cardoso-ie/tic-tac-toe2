@@ -38,7 +38,8 @@ print_board(board)
 
 def quit(user_input)
     if user_input == "q": return False 
-    else: return True   
+    else: return False   
 
 while True:
     user_input = input("Enter a position 1 through 9 or enter \"q\"")
+    if quit(user_input)
